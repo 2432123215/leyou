@@ -7,20 +7,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="leyou-user-service" />
+        <module name="leyou-upload" />
         <module name="leyou-sms-service" />
         <module name="leyou-auth-service" />
         <module name="leyou-user-interface" />
-        <module name="leyou-item-service" />
-        <module name="leyou-search" />
         <module name="leyou-gateway" />
-        <module name="leyou-cart" />
+        <module name="leyou-item-service" />
+        <module name="leyou-registry" />
         <module name="leyou-auth-common" />
         <module name="leyou-item-interface" />
         <module name="leyou-common" />
-        <module name="leyou-registry" />
-        <module name="leyou-upload" />
+        <module name="leyou-search" />
+        <module name="leyou-cart" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="leyou-config" target="1.8" />
+      <module name="leyou-order" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
